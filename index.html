@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thị giác Midori - Giải pháp AI</title>
+    <!-- Nhúng Tailwind CSS trực tiếp -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="min-h-screen bg-slate-50 text-slate-900 font-sans relative overflow-hidden" 
+         style="background-image: radial-gradient(#e2e8f0 1.5px, transparent 1.5px); background-size: 24px 24px;">
+      
+      <!-- Header / Navigation Bar -->
+      <header class="w-full max-w-7xl mx-auto px-6 h-20 flex items-center justify-between relative z-10">
+        <div class="flex items-center gap-2">
+          <div class="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center text-white font-bold text-lg shadow-md shadow-blue-500/20">
+            M
+          </div>
+          <span class="text-xl font-bold tracking-tight text-slate-800">
+            THỊ GIÁC <span class="text-blue-600">MIDORI</span>
+          </span>
+        </div>
+
+        <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
+          <a href="#cong-nghe" class="hover:text-blue-600 transition-colors">Công nghệ</a>
+          <a href="#giai-phap" class="hover:text-blue-600 transition-colors">Giải pháp</a>
+          <a href="#bai-viet" class="hover:text-blue-600 transition-colors">Bài viết AI</a>
+          <a href="#tai-nguyen" class="hover:text-blue-600 transition-colors">Tài nguyên</a>
+          <a href="#ve-chung-toi" class="hover:text-blue-600 transition-colors">Về chúng tôi</a>
+        </nav>
+
+        <div class="flex items-center gap-4">
+          <button class="text-sm font-semibold text-slate-600 hover:text-blue-600 transition-colors hidden sm:block">
+            Đăng nhập
+          </button>
+          <button class="bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold px-5 py-2.5 rounded-full transition-all shadow-lg shadow-blue-500/10 hover:shadow-blue-500/20">
+            Liên hệ Demo
+          </button>
+        </div>
+      </header>
+
+      <!-- Main Hero Content -->
+      <main class="max-w-7xl mx-auto px-6 pt-12 pb-24 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center relative z-10">
+        
+        <!-- Khối bên trái -->
+        <div class="space-y-8 max-w-xl">
+          <div class="inline-flex items-center gap-2 bg-blue-50 text-blue-700 text-xs font-semibold px-3 py-1.5 rounded-full border border-blue-100">
+            <span class="w-1.5 h-1.5 rounded-full bg-blue-600 animate-pulse"></span>
+            Giải pháp Thị giác Máy tính Thế hệ mới
+          </div>
+
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 leading-[1.15]">
+            Đưa công nghệ <br />
+            <span class="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+              Xử lý ảnh AI
+            </span> <br />
+            vào thực tiễn
+          </h1>
+
+          <p class="text-base sm:text-lg text-slate-600 leading-relaxed">
+            Hệ thống phân tích hình ảnh thông minh tự động hóa quy trình giám sát, 
+            nhận diện thực thể và tối ưu hóa vận hành theo thời gian thực.
+          </p>
+
+          <ul class="space-y-3.5 text-sm font-medium text-slate-700">
+            <li class="flex items-center gap-3">
+              <svg class="w-5 h-5 text-blue-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+              </svg>
+              Phân tích hành vi & nhận diện đối tượng thời gian thực
+            </li>
+            <li class="flex items-center gap-3">
+              <svg class="w-5 h-5 text-blue-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+              </svg>
+              Thuật toán tối ưu hiệu năng cao
+            </li>
+          </ul>
+
+          <div class="flex flex-wrap items-center gap-4 pt-2">
+            <button class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-full transition-all shadow-lg shadow-blue-500/20 hover:translate-y-[-1px]">
+              Khám phá giải pháp
+            </button>
+            <button class="group text-slate-700 hover:text-blue-600 font-semibold px-6 py-4 rounded-full transition-all flex items-center gap-2">
+              Tìm hiểu thêm
+              <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Khối bên phải (Mô phỏng Camera AI) -->
+        <div class="relative w-full aspect-square max-w-[500px] lg:max-w-none justify-self-center lg:justify-self-end">
+          <div class="absolute inset-0 bg-gradient-to-tr from-blue-400/20 to-indigo-400/10 rounded-full blur-3xl -z-10"></div>
+          
+          <div class="w-full h-full bg-white rounded-3xl border border-slate-200/80 shadow-2xl p-4 flex flex-col relative overflow-hidden group">
+            <div class="flex items-center justify-between border-b border-slate-100 pb-3 mb-3">
+              <div class="flex items-center gap-1.5">
+                <span class="w-3 h-3 rounded-full bg-rose-400"></span>
+                <span class="w-3 h-3 rounded-full bg-amber-400"></span>
+                <span class="w-3 h-3 rounded-full bg-emerald-400"></span>
+                <span class="text-xs text-slate-400 font-mono ml-2">live_feed_cam_01.py</span>
+              </div>
+              <span class="text-[10px] bg-slate-100 text-slate-500 font-mono px-2 py-0.5 rounded font-bold">
+                FPS: 60.2
+              </span>
+            </div>
+
+            <div class="flex-1 bg-slate-900 rounded-2xl relative overflow-hidden flex items-center justify-center">
+              <div class="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:100%_8px] pointer-events-none"></div>
+              
+              <div class="text-center space-y-2 p-6 z-10">
+                <div class="w-12 h-12 rounded-full border-2 border-dashed border-blue-400 flex items-center justify-center mx-auto animate-spin" style="animation-duration:8s">
+                  <div class="w-6 h-6 rounded-full bg-blue-500/20"></div>
+                </div>
+                <p class="text-xs font-mono text-slate-400 tracking-widest uppercase">
+                  Đang quét luồng hình ảnh...
+                </p>
+              </div>
+
+              <div class="absolute top-[20%] left-[15%] w-[45%] h-[40%] border-2 border-emerald-500 rounded-lg bg-emerald-500/10 backdrop-blur-[0.5px]">
+                <span class="absolute -top-5 left-[-2px] bg-emerald-500 text-white font-mono text-[9px] px-1.5 py-0.5 rounded-t font-semibold uppercase tracking-wider">
+                  Target_01: 98.4%
+                </span>
+                <span class="absolute top-1.5 right-2 w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+              </div>
+            </div>
+
+            <div class="absolute bottom-6 left-6 right-6 bg-white/90 backdrop-blur-md border border-slate-200/60 p-3 rounded-xl shadow-lg flex items-center justify-between">
+              <div class="space-y-0.5">
+                <span class="text-[10px] uppercase tracking-wider text-slate-400 font-bold">Tốc độ xử lý</span>
+                <p class="text-sm font-extrabold text-slate-800">~ 12ms / Khung hình</p>
+              </div>
+              <div class="w-2.5 h-2.5 rounded-full bg-emerald-500"></div>
+            </div>
+          </div>
+        </div>
+
+      </main>
+    </div>
+</body>
+</html>
